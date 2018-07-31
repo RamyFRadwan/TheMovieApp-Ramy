@@ -1,10 +1,11 @@
 package com.ramyfradwan.themovieapp.feature.model;
 
 import com.google.gson.annotations.SerializedName;
+import com.ramyfradwan.themovieapp.feature.base.BaseResponseModel;
 
 import java.util.List;
 
-public class MoviesResponse {
+public class MoviesResponse extends BaseResponseModel {
     @SerializedName("page")
     private int page;
     @SerializedName("results")
